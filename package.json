@@ -1,0 +1,25 @@
+{
+  "name": "webpack-deepdive",
+  "version": "1.0.0",
+  "description": "The purpose of this repository is for me to test out various advanced features of webpack 2. See branch list for examples.",
+  "main": "index.js",
+  "scripts": {
+    "release:major": "changelog -M && git add CHANGELOG.md && git commit -m 'updated CHANGELOG.md' && npm version major && git push origin && git push origin --tags",
+    "release:minor": "changelog -m && git add CHANGELOG.md && git commit -m 'updated CHANGELOG.md' && npm version minor && git push origin && git push origin --tags",
+    "release:patch": "changelog -p && git add CHANGELOG.md && git commit -m 'updated CHANGELOG.md' && npm version patch && git push origin && git push origin --tags"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/omizrahi3/webpack-deepdive.git"
+  },
+  "author": "Odell Mizrahi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/omizrahi3/webpack-deepdive/issues"
+  },
+  "homepage": "https://github.com/omizrahi3/webpack-deepdive#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "generate-changelog": "^1.5.0"
+  }
+}
