@@ -4,6 +4,7 @@
   "description": "The purpose of this repository is for me to test out various advanced features of webpack 2. See branch list for examples.",
   "main": "index.js",
   "scripts": {
+    "build": "webpack --config ./webpack/webpack.babel.js",
     "release:major": "changelog -M && git add CHANGELOG.md && git commit -m 'updated CHANGELOG.md' && npm version major && git push origin && git push origin --tags",
     "release:minor": "changelog -m && git add CHANGELOG.md && git commit -m 'updated CHANGELOG.md' && npm version minor && git push origin && git push origin --tags",
     "release:patch": "changelog -p && git add CHANGELOG.md && git commit -m 'updated CHANGELOG.md' && npm version patch && git push origin && git push origin --tags"
@@ -20,6 +21,10 @@
   "homepage": "https://github.com/omizrahi3/webpack-deepdive#readme",
   "dependencies": {},
   "devDependencies": {
-    "generate-changelog": "^1.5.0"
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-es2015": "^6.24.1",
+    "generate-changelog": "^1.5.0",
+    "webpack": "^3.8.1"
   }
 }
