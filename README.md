@@ -1,3 +1,3 @@
-# basic
+# css
 
-This branch demonstrates a basic webpack build. 
+This branch demonstrates a webpack bundle that includes a seperate sass to css bundle.
