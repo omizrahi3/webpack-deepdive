@@ -1,3 +1,3 @@
-# webpack-deepdive
+# basic
 
-The purpose of this repository is for me to test out various advanced features of webpack 2. See branch list for examples.
+This branch demonstrates a basic webpack build. 
