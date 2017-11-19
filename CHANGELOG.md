@@ -1,3 +1,9 @@
+### 1.2.0 (2017-11-19)
+
+##### New Features
+
+* **css:** added sass to css to webpack bundle. ([6d402f09](https://github.com/omizrahi3/webpack-deepdive/commit/6d402f0985d5002893efbc050fdb6017ed2b6d69))
+
 ### 1.1.0 (2017-11-18)
 
 ##### Documentation Changes
