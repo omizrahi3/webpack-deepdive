@@ -2,10 +2,6 @@ import path from 'path';
 import webpack from 'webpack';
 import ExtractTextPlugin from 'extract-text-webpack-plugin';
 
-var extractPlugin = new ExtractTextPlugin({
-    filename: 'main.scss'
-});
-
 const config = {
     entry: path.join(__dirname, '../src/js/main.js'),
     output: {
@@ -14,7 +10,8 @@ const config = {
     },
     plugins: [
         new ExtractTextPlugin({
-            filename: 'css/main.css', allChunks: true
+            filename: 'css/main.css',
+            allChunks: true
         })
     ],
     module: {
