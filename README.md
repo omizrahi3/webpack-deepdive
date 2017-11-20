@@ -1,3 +1,3 @@
 # css
 
-This branch demonstrates a webpack bundle that includes a seperate sass to css bundle.
+This branch demonstrates a webpack bundle that utilizes the webpack dev-server.
