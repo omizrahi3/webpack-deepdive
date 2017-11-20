@@ -4,6 +4,7 @@
   "description": "The purpose of this repository is for me to test out various advanced features of webpack 2. See branch list for examples.",
   "main": "index.js",
   "scripts": {
+    "dev": "webpack-dev-server --config ./webpack/webpack.babel.js",
     "build": "webpack --config ./webpack/webpack.babel.js",
     "release:major": "changelog -M && git add CHANGELOG.md && git commit -m 'updated CHANGELOG.md' && npm version major && git push origin && git push origin --tags",
     "release:minor": "changelog -m && git add CHANGELOG.md && git commit -m 'updated CHANGELOG.md' && npm version minor && git push origin && git push origin --tags",
@@ -30,6 +31,7 @@
     "node-sass": "^4.7.1",
     "sass-loader": "^6.0.6",
     "style-loader": "^0.19.0",
-    "webpack": "^3.8.1"
+    "webpack": "^3.8.1",
+    "webpack-dev-server": "^2.9.4"
   }
 }

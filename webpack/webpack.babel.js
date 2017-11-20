@@ -6,7 +6,10 @@ const config = {
     entry: path.join(__dirname, '../src/js/main.js'),
     output: {
         path: path.join(__dirname, '../dist'),
-        filename: 'bundle.js'
+        filename: 'bundle.js',
+    },
+    devServer: {
+        contentBase: path.join(__dirname, '../dist')
     },
     plugins: [
         new ExtractTextPlugin({
