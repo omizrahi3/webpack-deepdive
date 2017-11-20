@@ -1,6 +1,6 @@
 {
   "name": "webpack-deepdive",
-  "version": "1.2.0",
+  "version": "1.3.0",
   "description": "The purpose of this repository is for me to test out various advanced features of webpack 2. See branch list for examples.",
   "main": "index.js",
   "scripts": {
