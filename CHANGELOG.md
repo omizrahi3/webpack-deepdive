@@ -1,3 +1,9 @@
+### 1.3.0 (2017-11-20)
+
+##### New Features
+
+* **dev-server:** dev-server demo complete. ([9096d642](https://github.com/omizrahi3/webpack-deepdive/commit/9096d6426e1cc667438fcd62781ef8dbd0c289f2))
+
 ### 1.2.0 (2017-11-19)
 
 ##### New Features
